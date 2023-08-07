@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+    @apply text-3xl font-bold text-gray-800 my-4
+}
+
+h2 {
+    @apply text-xl font-semibold text-gray-800 text-center mb-4
+}
+
+h3 {
+    @apply text-lg font-semibold text-gray-800 text-center mb-4
+}
+
+input {
+    @apply ml-4 mr-4 rounded-lg p-2 text-gray-800
+}
+
+button {
+    @apply bg-blue-500 text-white p-2 rounded-lg hover:bg-blue-600
+}
